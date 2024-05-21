@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="build-linux-arm64" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="vcgencmd" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-o vcgencmd_linux_arm64" />
+    <envs>
+      <env name="GOOS" value="linux" />
+      <env name="GOARCH" value="arm64" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="github.com/cetfu/vcgencmd" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <output_directory value="$PROJECT_DIR$" />
+    <option name="run" value="false" />
+    <method v="2" />
+  </configuration>
+</component>
